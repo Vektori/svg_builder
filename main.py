@@ -16,6 +16,6 @@ payload = {
 
 response = requests.post(url, json=payload, stream=True)
 
-if response.status_code == 200:
+
 
 # %%
